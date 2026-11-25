@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.yoshi",
+    "module": "xconfig",
+    "version": "0.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "xconfig-0.7.0.jar",
+          "url": "xconfig-0.7.0.jar",
+          "size": 60839,
+          "sha512": "e78a696f070ebe4219e804a1c5f7fd23de6d8c5abd58efdef5fd05642d3f71ca34e1a060222e7449b75dd878db54445b0e90a3d4caed6b0a5f66cdcaa8cb0391",
+          "sha256": "aa98f9f4b1e27f8e41f08da07c7f855b43884bff2977c238efaf8e9551e16083",
+          "sha1": "fa908dc853fb1db45d66b0f174636742c1f653f5",
+          "md5": "ab1a6591cdb8677c80dd57607af63510"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "xconfig-0.7.0.jar",
+          "url": "xconfig-0.7.0.jar",
+          "size": 60839,
+          "sha512": "e78a696f070ebe4219e804a1c5f7fd23de6d8c5abd58efdef5fd05642d3f71ca34e1a060222e7449b75dd878db54445b0e90a3d4caed6b0a5f66cdcaa8cb0391",
+          "sha256": "aa98f9f4b1e27f8e41f08da07c7f855b43884bff2977c238efaf8e9551e16083",
+          "sha1": "fa908dc853fb1db45d66b0f174636742c1f653f5",
+          "md5": "ab1a6591cdb8677c80dd57607af63510"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "xconfig-0.7.0-sources.jar",
+          "url": "xconfig-0.7.0-sources.jar",
+          "size": 40678,
+          "sha512": "645bcd112f2be753a08e2ff2a6b80999429751b49db033d2e6df47f56a46fbb258fb010c87e8c8883609de8bf5c2f41e1c92ce02e5b37695a2ec0c98cfb52f86",
+          "sha256": "6135ac302ee2a5f88633e69d82be6efcf0e78636ea4e0ce9353ca38023e76f17",
+          "sha1": "8ba552eaa38e67cd11b94384dc7fd0325217ab5c",
+          "md5": "41a23ff9a624cde4252629c28cf249a6"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "xconfig-0.7.0-javadoc.jar",
+          "url": "xconfig-0.7.0-javadoc.jar",
+          "size": 196451,
+          "sha512": "496d7e333be1d88dcc069d93e5f1e5ead2042e2ca40851a81a11e9bb994891c47fd6206c67dd94a566842843e5df90ff8a824dbc286a0f6513ff67b52ad3533f",
+          "sha256": "2be5fffb8dd2ab72d359513d0fdd44c948d7feb1a539c6e473b5df13151c5f27",
+          "sha1": "e0d8d98410cade09e4d8442bbb939a356032ef21",
+          "md5": "1f72fa9d5611ab6314cc4f1068ccbfb9"
+        }
+      ]
+    }
+  ]
+}
