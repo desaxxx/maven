@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.dash",
+    "module": "itemstack-framework",
+    "version": "0.5.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.9.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dash",
+          "module": "common",
+          "version": {
+            "requires": "0.2"
+          }
+        },
+        {
+          "group": "org.jspecify",
+          "module": "jspecify",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "itemstack-framework-0.5.1.jar",
+          "url": "itemstack-framework-0.5.1.jar",
+          "size": 56633,
+          "sha512": "da6632812ad48f201bd7c804536c9a268c020da3e4461968207bbda7ee5a3072bcba1dd1fd7714d948d02d91ac63ad9605481bc7bbaecae12ed57048f5f9e88b",
+          "sha256": "a9fad028d9cfc5f0d759b897cfb1bfd0caecdaf22738cf191baa003688b3132b",
+          "sha1": "aa6920d7ca7ac8433bd641aa0189a28186a28e39",
+          "md5": "bc2219fbd3790a603d2f6816121e7f47"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "dev.dash",
+          "module": "common",
+          "version": {
+            "requires": "0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "itemstack-framework-0.5.1.jar",
+          "url": "itemstack-framework-0.5.1.jar",
+          "size": 56633,
+          "sha512": "da6632812ad48f201bd7c804536c9a268c020da3e4461968207bbda7ee5a3072bcba1dd1fd7714d948d02d91ac63ad9605481bc7bbaecae12ed57048f5f9e88b",
+          "sha256": "a9fad028d9cfc5f0d759b897cfb1bfd0caecdaf22738cf191baa003688b3132b",
+          "sha1": "aa6920d7ca7ac8433bd641aa0189a28186a28e39",
+          "md5": "bc2219fbd3790a603d2f6816121e7f47"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "itemstack-framework-0.5.1-sources.jar",
+          "url": "itemstack-framework-0.5.1-sources.jar",
+          "size": 27139,
+          "sha512": "3cde9896e1ca69a97ba196affb261a6d9af3e89e6a9c82d3eba7c65442bd695bf7af89c096238249ab324ee95ffaa4a27f68c8f9553f5af612f5c72650164190",
+          "sha256": "faf00ca57642e0c01456f7d6b6c4d8d4b1076dc9927b4fc1e40745f5baedc3b7",
+          "sha1": "94210c6806062ab0dd95a70505a52bc892f719b6",
+          "md5": "3da78194723be58fc9672ad683612790"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "itemstack-framework-0.5.1-javadoc.jar",
+          "url": "itemstack-framework-0.5.1-javadoc.jar",
+          "size": 167831,
+          "sha512": "8610e90a2703e258a3d1815fa18e4095edb09d3a3f0d2b824a9e2980de2daf11319139f1893b1a385c8fcdcb735a2105ac7bca23e650139d0ac56731f7a12910",
+          "sha256": "a4a365e9ecd9f639b2eeb47418409e3824d3237a12b055641fd6e1e6b0c05a6a",
+          "sha1": "fbf9bbea5944967e951880203d4f2fd7d48fd804",
+          "md5": "04aa3a11fedf833f4a1e67a97ea821d4"
+        }
+      ]
+    }
+  ]
+}
